@@ -11,8 +11,21 @@ Open a new Terminal window and do the following steps:
     ~~~~~~~
     npm install
     ~~~~~~~
+3. Start the application:
+    ~~~~~~~
+    npm run dev
+    ~~~~~~~
+    You should see the development server being started:
+    [![Started](resources/started.png)]() 
+
+    If you open the `Local` URL in a new browser tab, you should see the follwoing:
+    [![Initial](resources/initial_screen.png)]()     
+    
+
 
 ### Make First Changes to Your JSX Code
+
+Go to `src/` directory and open `App.jsx` file. Once opened, do the following changes:
 
 1. Change the text displayed inside the `<h1>` element to "Welcome to My React App".
 2. Create a new `<p>` element below the `<h1>` element and add the text "This is my first React app created with Vite." inside it.
@@ -21,7 +34,9 @@ Open a new Terminal window and do the following steps:
     ~~~~~~~
     <p>This is {name}'s first React app created with Vite.</p>
     ~~~~~~~
+
 Write a code that can be executed by JSX.
+
 5. After the name variable, let's create a greet() function.
     ~~~~~~~
     const greet = () => "Hello Everyone!"
@@ -30,6 +45,9 @@ Write a code that can be executed by JSX.
     ~~~~~~~
     <p>{greet()}</p>
     ~~~~~~~
+
+Once you finish with all the steps above, you should see your previously opened React page looking a bit different:
+[![Initial](resources/edited_screen.png)]()  
 
 
 

@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-      <h1 className='text-3xl'> Cloud Academy Labs</h1>
+      <h1>Cloud Academy Labs</h1>
     </>
   )
 }
